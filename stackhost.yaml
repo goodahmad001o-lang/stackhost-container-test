@@ -1,0 +1,11 @@
+runtime:
+  image: python:3.12
+
+commands:
+  package: ""
+  build: []
+  start: "python main.py"
+
+repository:
+  branch: main
+  auto_deploy: false
